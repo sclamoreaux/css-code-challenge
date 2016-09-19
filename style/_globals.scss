@@ -1,0 +1,47 @@
+//Variables for colors and fonts will go here
+
+//define fonts
+@font-face {
+  font-family: 'Bungee-Reg';
+  src: url("../fonts/Bungee/Bungee-Regular.ttf") format('truetype'),
+        url("../fonts/Bungee/bungee-regular.woff") format('woff'),
+        url("../fonts/Bungee/bungee-regular.woff2") format('woff2');
+}
+
+@font-face {
+  font-family: 'Cabin';
+  src: url("../fonts/Cabin/Cabin-Regular.ttf") format('truetype'),
+        url("../fonts/Cabin/cabin-regular.woff") format('woff'),
+        url("../fonts/Cabin/cabin-regular.woff2") format('woff2');
+}
+
+@font-face {
+  font-family: "Lobster";
+  src: url("../fonts/Lobster/Lobster-Regular.ttf") format('truetype'),
+        url("../fonts/Lobster/lobster-regular.woff") format('woff'),
+        url("../fonts/Lobster/lobster-regular.woff2") format('woff2');
+}
+
+//define colors
+$red: #af2f26;
+$gold: #f2b378;
+$charcoal: #333333;
+$teal: #19616b;
+
+//General Style and Layout settings
+
+//reset margins and padding
+* {
+  margin: 0;
+}
+
+//center the wrapped content with 1000px width
+.wrapper {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+//Hide overflow on body (prevent unnecessary scrollbars)
+body {
+  overflow-x: hidden;
+}

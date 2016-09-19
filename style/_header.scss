@@ -1,0 +1,58 @@
+//styles for the header and footer will go here
+
+#HeaderBar {
+  background-color: $charcoal;
+  margin: 0px -2000px;
+  padding: 0px 2000px;
+  height: 120px;
+  // text-align: right;
+}
+
+//style the nav links, incl hover/active state
+.nav-links li {
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 1.3em;
+
+    a {
+    color: $gold;
+    &:hover, &:active {
+      color: $red;
+    }
+  }
+}
+
+nav {
+  position: relative;
+  top: 60px;
+}
+
+//style the logo/brand name
+.brand-name {
+  float: left;
+}
+
+//style the login buttom, make it sit at top right
+#Login {
+  background-color: $teal;
+  // position: absolute;
+  // top: 0px;
+  width: 110px;
+  font-size: 1.3em;
+  border: 0px;
+}
+
+//style the footer links to be side-by-side, with olo.com on left and others on right
+footer {
+  background-color: $charcoal;
+  height: 100px;
+  a {
+    color: white;
+  }
+  #FooterLinks {
+    float: right;
+  }
+  .olo-link {
+    float: left;
+  }
+}

@@ -1,0 +1,31 @@
+//styles for all fonts will go here
+
+//assign cabin to all body texts
+body {
+  font-family: "Cabin";
+  color: $charcoal;
+}
+
+//assign bungee to all h elements and titles
+
+h1, h2, .category, .nav-links {
+  font-family: "Bungee-Reg";
+  font-weight: normal;
+}
+
+//assign lobster to login button, brand name
+.brand-name, .login-btn {
+  font-family: "Lobster";
+  color: white;
+  font-weight: normal;
+}
+
+//remove underlines from all links
+a {
+  text-decoration: none;
+}
+
+//make address link red
+.address a {
+  color: $red;
+}

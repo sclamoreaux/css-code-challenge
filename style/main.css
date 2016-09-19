@@ -1,0 +1,83 @@
+@font-face {
+  font-family: 'Bungee-Reg';
+  src: url("../fonts/Bungee/Bungee-Regular.ttf") format("truetype"), url("../fonts/Bungee/bungee-regular.woff") format("woff"), url("../fonts/Bungee/bungee-regular.woff2") format("woff2"); }
+@font-face {
+  font-family: 'Cabin';
+  src: url("../fonts/Cabin/Cabin-Regular.ttf") format("truetype"), url("../fonts/Cabin/cabin-regular.woff") format("woff"), url("../fonts/Cabin/cabin-regular.woff2") format("woff2"); }
+@font-face {
+  font-family: "Lobster";
+  src: url("../fonts/Lobster/Lobster-Regular.ttf") format("truetype"), url("../fonts/Lobster/lobster-regular.woff") format("woff"), url("../fonts/Lobster/lobster-regular.woff2") format("woff2"); }
+* {
+  margin: 0; }
+
+.wrapper {
+  width: 1000px;
+  margin: 0 auto; }
+
+body {
+  overflow-x: hidden; }
+
+body {
+  font-family: "Cabin";
+  color: #333333; }
+
+h1, h2, .category, .nav-links {
+  font-family: "Bungee-Reg";
+  font-weight: normal; }
+
+.brand-name, .login-btn {
+  font-family: "Lobster";
+  color: white;
+  font-weight: normal; }
+
+a {
+  text-decoration: none; }
+
+.address a {
+  color: #af2f26; }
+
+#HeaderBar {
+  background-color: #333333;
+  margin: 0px -2000px;
+  padding: 0px 2000px;
+  height: 120px; }
+
+.nav-links li {
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 1.3em; }
+  .nav-links li a {
+    color: #f2b378; }
+    .nav-links li a:hover, .nav-links li a:active {
+      color: #af2f26; }
+
+nav {
+  position: relative;
+  top: 60px; }
+
+.brand-name {
+  float: left; }
+
+#Login {
+  background-color: #19616b;
+  width: 110px;
+  font-size: 1.3em;
+  border: 0px; }
+
+footer {
+  background-color: #333333;
+  height: 100px; }
+  footer a {
+    color: white; }
+  footer #FooterLinks {
+    float: right; }
+  footer .olo-link {
+    float: left; }
+
+#ContentArea {
+  background-color: #f2b378;
+  border-top: 30px solid #af2f26;
+  margin: 0px -2000px;
+  padding: 0px 2000px; }
+
+/*# sourceMappingURL=main.css.map */
